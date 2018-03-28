@@ -28,10 +28,7 @@ BOB_SENDER = 'bob_sender'
 
 
 class Alice:
-    """
-        The class Bob is the class that represents the rdt receiver.
-    """
-
+    
     def __init__(self):
         """
         Constructor of the Class Alice
@@ -102,8 +99,7 @@ class Alice:
 
 class Bob:
     """
-    The class Bob is the class that represents the sender and performs all the
-    required functionality of the rdt sender.
+    sender class
     """
     seq = 0
     message0 = "message 0 from Bob"
